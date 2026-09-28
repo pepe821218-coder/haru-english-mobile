@@ -56,3 +56,18 @@ header>*{min-width:0}
   .tools{gap:6px}
   .tools button{font-size:12px;padding-left:3px;padding-right:3px}
 }
+
+/* Compact mobile lesson dialogue */
+@media(max-width:420px){
+  .dialogue{margin:14px 0 18px}
+  .line{padding:10px 0}
+  .line.you{padding-left:12px}
+  .line .muted{font-size:13px}
+  .line .english{font-size:20px;line-height:1.32;margin:6px 0}
+  .line .translation{font-size:14px;line-height:1.45;margin:4px 0 2px}
+  .tools{margin:14px 0 18px}
+  .tools button{min-height:46px}
+  .bottom{margin-top:20px}
+  .back{min-height:38px;padding:4px 0}
+  .progress{margin-bottom:18px}
+}
